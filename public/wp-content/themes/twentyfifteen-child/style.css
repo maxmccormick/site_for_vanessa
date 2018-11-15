@@ -1,0 +1,44 @@
+/*
+ Theme Name:   2015child
+ Author:       Max McCormick
+ Description:  2015child
+ Template:     twentyfifteen
+*/
+
+
+/*footer {
+	display:flex;
+	align-content: center;
+}*/
+
+.footerlinks {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+@media screen and (min-width: 59.6875em) {
+	body:before {
+		height: auto;
+		min-height: 70%;
+		box-shadow: none;	
+	}
+}
+
+@media screen and (min-width: 59.6875em) {
+	.site-footer {
+	margin: 0px;
+	width: 100%;
+	box-shadow: none;	
+	}
+}
+
+body {
+	background: none;
+}
+
+@media screen and (min-width: 38.75em) {
+.hentry, .page-header, .page-content {
+    box-shadow: none;
+    margin: 0%;
+	}
+}
