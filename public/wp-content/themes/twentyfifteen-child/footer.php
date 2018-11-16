@@ -14,7 +14,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 	
-			<p>Like what you see?</p>
+			<div class="footerpara"><p >Like what you see?</p></div>
 			<div class="footerlinks">
 				<a href="#">Donate</a>
 				<a href="#">Buy</a>

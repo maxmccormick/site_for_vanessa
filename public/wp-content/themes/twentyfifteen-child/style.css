@@ -5,15 +5,16 @@
  Template:     twentyfifteen
 */
 
-
-/*footer {
+.footerpara {
 	display:flex;
-	align-content: center;
-}*/
+	justify-content: center;
+}
 
 .footerlinks {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
+	padding: 0 30%;
+	margin-bottom: 5rem;
 }
 
 @media screen and (min-width: 59.6875em) {
@@ -42,3 +43,38 @@ body {
     margin: 0%;
 	}
 }
+
+@media screen and (min-width: 59.6875em){
+	.sidebar {
+		width:15%;
+	}
+}
+
+.header_title{
+	position: relative;
+	font-size: 15rem;
+	font-family: 'Amatic SC', cursive;
+	width:100%;
+}
+
+.main-navigation li {
+	border: none;
+}
+
+@media screen and (min-width: 38.75em) {
+	.main-navigation ul {
+		border:none;
+	}
+}
+
+.header_title_container {
+	width:70%;
+}
+
+@media screen and (min-width: 77.5em){
+	p {
+		margin-bottom:none;
+	}
+}
+
+
